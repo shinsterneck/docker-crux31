@@ -16,5 +16,5 @@ RUN	ports -u
 RUN	rm -rf /usr/ports/*/libpipeline
 
 RUN	prt-get sysup && \
-	rm -rf /usr/ports/{pkgs,src} 
+	rm -rf /usr/ports/{work,pkgs,src}/*
 
