@@ -1,8 +1,7 @@
 This image is based on the official CRUX Docker image with the following additions:
 
 
++ organized ports file system
++ added contrib repository
 + prt-get sysup on the existing packages
 
-+ create local user "crux" (password: welcome)
-
-+ starts ssh daemon by default
