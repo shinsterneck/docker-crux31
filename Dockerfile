@@ -13,8 +13,6 @@ RUN	mv /etc/ports/contrib.rsync.inactive /etc/ports/contrib.rsync
 
 RUN	ports -u
 
-RUN	rm -rf /usr/ports/*/libpipeline
-
 RUN	prt-get sysup && \
 	rm -rf /usr/ports/{work,pkgs,src}/*
 
